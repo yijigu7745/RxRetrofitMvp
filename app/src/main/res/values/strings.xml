@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">三明市印章管理查询系统</string>
+    <string name="userName">用户名</string>
+    <string name="password">密&#12288;码</string>
+    <string name="login">登录</string>
+    <string name="clear">重置</string>
+    <string name="web_user_agent">set</string>
+
+</resources>
+
