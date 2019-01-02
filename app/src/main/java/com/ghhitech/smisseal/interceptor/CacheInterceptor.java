@@ -13,6 +13,7 @@ public class CacheInterceptor implements Interceptor {
     public Response intercept(Chain chain) throws IOException {
         Request request = chain.request();
         Response response = chain.proceed(request);
+
         String cache = request.header("Cache-Time");
         if (!HttpProvider.checkNULL(cache)){
             Response response1 = response.newBuilder()
